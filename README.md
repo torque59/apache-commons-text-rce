@@ -6,3 +6,9 @@ https://mvnrepository.com/artifact/org.apache.commons/commons-text - Any version
 Apart from the above use-case any other library making use of StringSubstitutor with Interpolator then such library is also vulnerable. One such library is *Apache Common Configuration* (https://securitylab.github.com/advisories/GHSL-2022-017_Apache_Commons_Configuration/)
 
 ![image](https://user-images.githubusercontent.com/22236992/195710399-204edb80-796b-4d24-abea-9f7d3b77ab70.png)
+
+Modified to only add build steps and working poc for mac.
+
+## Build
+
+`mvn clean compile assembly:single`
